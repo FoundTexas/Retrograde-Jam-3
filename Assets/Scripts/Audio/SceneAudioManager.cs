@@ -12,6 +12,7 @@ namespace Audio
 
         AudioMixer mixer;
         static AudioSource source;
+        private Firebase.FirebaseApp app;
 
         void Start()
         {
