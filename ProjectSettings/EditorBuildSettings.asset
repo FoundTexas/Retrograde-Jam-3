@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LobbyMenu.unity
     guid: 476dbc3506c94dc488931517ea103216
   - enabled: 1
+    path: Assets/Scenes/HorrorScene1.unity
+    guid: c3fafc00858576e4ba5013ad7127d94c
+  - enabled: 1
     path: Assets/Scenes/AudioChangeTestScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
