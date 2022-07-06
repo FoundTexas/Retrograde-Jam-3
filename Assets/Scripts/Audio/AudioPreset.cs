@@ -8,7 +8,7 @@ public class AudioPreset
 {
     [Range(0.1f, 2)]
     public float volume;
-    [Range(0.1f, 2)]
+    [Range(0.1f, 2.5f)]
     public float pitch;
     [Range(-10000.0f, 0)]
     public float reverb;
