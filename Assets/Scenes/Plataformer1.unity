@@ -388,7 +388,7 @@ MonoBehaviour:
   Solid: {fileID: 11400000, guid: 9a34f25d877fcd14ea51517125a7c227, type: 2}
   Unsolid: {fileID: 11400000, guid: 49d1be2cecc8c084db56dba7b8965d35, type: 2}
   map: {fileID: 531566010}
-  size: {x: 8, y: 8}
+  size: {x: 50, y: 15}
 --- !u!1 &866681634
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,7 +466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866681634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 7.25, y: 4.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

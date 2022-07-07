@@ -13,12 +13,32 @@ public class PlataformerGenerator : MonoBehaviour
     {
 
         Vector3Int[] positions = new Vector3Int[size.x * size.y];
-        TileBase[] tileArray = new TileBase[positions.Length];
+        RuleTile[] tileArray = new RuleTile[positions.Length];
+        Dictionary<Vector2, RuleTile> dictionary = new Dictionary<Vector2, RuleTile>();
 
         for (int index = 0; index < positions.Length; index++)
         {
-            positions[index] = new Vector3Int(index % size.x, index / size.y, 0);
-            tileArray[index] = index % 2 == 0 ? Solid : Unsolid;
+            Vector3Int pos = new Vector3Int(index % size.x, index / size.x, 0);
+
+            Debug.Log(pos);
+
+            if (pos.x == 0 || pos.x == positions.Length-1)
+            {
+                positions[index] = pos;
+                tileArray[index] = Solid;
+            }
+            else if (pos.y == 0)
+            {
+                positions[index] = pos;
+                tileArray[index] = Solid;
+            }
+            else if (pos.x > 5)
+            {
+                positions[index] = pos;
+                tileArray[index] = index % 2 == 0 ? Solid : Unsolid;
+            }
+            //dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
+
         }
 
         map.SetTile(new Vector3Int(0, 0, 0), Unsolid);
