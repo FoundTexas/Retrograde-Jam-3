@@ -35,9 +35,9 @@ public class PlataformerGenerator : MonoBehaviour
             else if (pos.x > 5)
             {
                 positions[index] = pos;
-                tileArray[index] = index % 2 == 0 ? Solid : Unsolid;
+                tileArray[index] = Random.Range(0,1) == 1 ? Solid : Unsolid;
             }
-            //dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
+            dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
 
         }
 
