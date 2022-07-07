@@ -18,7 +18,7 @@ public class PlataformerGenerator : MonoBehaviour
 
         for (int index = 0; index < positions.Length; index++)
         {
-            Vector3Int pos = new Vector3Int(index % size.x, index / size.x, 0);
+            Vector3Int pos = new Vector3Int(index / size.y, index % size.y, 0);
 
             Debug.Log(pos);
 
@@ -32,12 +32,20 @@ public class PlataformerGenerator : MonoBehaviour
                 positions[index] = pos;
                 tileArray[index] = Solid;
             }
-            else if (pos.x > 5)
+            else if (pos.x > 5 && pos.x < positions.Length - 1)
             {
-                positions[index] = pos;
-                tileArray[index] = Random.Range(0,1) == 1 ? Solid : Unsolid;
+                if (Random.Range(0, 5) >= 3)
+                {
+                    if (dictionary[new Vector2(pos.x, pos.y - 1)] == null)
+                    {
+                        positions[index] = pos;
+                        tileArray[index] = Random.Range(0, 5) >= 3 ? Solid : Unsolid;
+                    }
+                }
             }
             dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
+            Debug.Log(dictionary[new Vector2(pos.x, pos.y)]);
+
 
         }
 
