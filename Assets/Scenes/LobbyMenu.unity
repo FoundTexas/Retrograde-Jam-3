@@ -384,7 +384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio:
     volume: 1
-    pitch: 1
+    pitch: 0.7
     reverb: -10000
 --- !u!4 &302397680
 Transform:

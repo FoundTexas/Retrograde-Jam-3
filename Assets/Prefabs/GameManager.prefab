@@ -213,19 +213,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12678776a9c4b9b458e79d6b1ac4787f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Levelspresets:
-  - volume: 1
-    pitch: 1
-    reverb: -10000
-  - volume: 1
-    pitch: 0.89
-    reverb: 0
-  - volume: 1
-    pitch: 1.4
-    reverb: -1836
-  - volume: 1
-    pitch: 1
-    reverb: -10000
 --- !u!82 &6229032549734426194
 AudioSource:
   m_ObjectHideFlags: 0
@@ -236,7 +223,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 2650cd50465a47045bbc47749db02343, type: 2}
-  m_audioClip: {fileID: 8300000, guid: b795709a3da76784a8c805da099e1e7d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 70e4d8889a7a469408385595928e7d2b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0
   m_Pitch: 1

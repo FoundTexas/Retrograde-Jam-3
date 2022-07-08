@@ -22,34 +22,68 @@ public class PlataformerGenerator : MonoBehaviour
 
             Debug.Log(pos);
 
-            if (pos.x == 0 || pos.x == positions.Length-1)
+            positions[index] = pos;
+            tileArray[index] = null;
+
+            if (pos.x == 0 || pos.x >= size.x)
             {
-                positions[index] = pos;
                 tileArray[index] = Solid;
             }
-            else if (pos.y == 0)
+            else if (pos.y < 3)
             {
-                positions[index] = pos;
                 tileArray[index] = Solid;
             }
-            else if (pos.x > 5 && pos.x < positions.Length - 1)
+            else if (pos.x > 5 && pos.x < size.x)
             {
-                if (Random.Range(0, 5) >= 3)
+
+                var prev = dictionary[new Vector2(pos.x, pos.y - 1)];
+                var prev2 = dictionary[new Vector2(pos.x, pos.y - 2)];
+                var prev3 = dictionary[new Vector2(pos.x, pos.y - 3)];
+
+                var side = dictionary[new Vector2(pos.x-1, pos.y)];
+                var side2 = dictionary[new Vector2(pos.x-2, pos.y)];
+                var side3 = dictionary[new Vector2(pos.x-3, pos.y)];
+
+                if (side == Solid)
                 {
-                    if (dictionary[new Vector2(pos.x, pos.y - 1)] == null)
+                    if (side2 == Solid)
                     {
-                        positions[index] = pos;
-                        tileArray[index] = Random.Range(0, 5) >= 3 ? Solid : Unsolid;
+                        if (side3 == Solid)
+                        {
+                            tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                        }
+                        else
+                        {
+                            tileArray[index] = Solid;
+                        }
+                    }
+                    else
+                    {
+                        tileArray[index] = Solid;
                     }
                 }
+                else if (prev == Solid)
+                {
+                    if (pos.y < 6)
+                    {
+                        tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                    }
+                }
+                else if (prev == null)
+                {
+                    if (prev2 == null)
+                    {
+                        if (prev3 == null)
+                        {
+                            tileArray[index] = Random.Range(0, 10) >= 3 ? Solid : null;
+                        }
+                    }
+                }
+
             }
             dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
             Debug.Log(dictionary[new Vector2(pos.x, pos.y)]);
-
-
         }
-
-        map.SetTile(new Vector3Int(0, 0, 0), Unsolid);
         map.SetTiles(positions, tileArray);
     }
 
