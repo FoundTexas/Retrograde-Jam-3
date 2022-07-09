@@ -7,16 +7,15 @@ public class GameManager : MonoBehaviour
     static GameManager GM;
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
         if (GM == null)
         {
             GM = this;
         }
-        else if ( GM != null)
+        else if (GM != this)
         {
-            if(GM != this)
-            {
-                Destroy(this.gameObject);
-            }
+            Destroy(this.gameObject);
+
         }
     }
 }

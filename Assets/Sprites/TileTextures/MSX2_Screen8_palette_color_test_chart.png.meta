@@ -1,0 +1,5086 @@
+fileFormatVersion: 2
+guid: f5de3ac58e238934a80b4880e3d1e474
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe9d673aa629624d8baa39e7872864e
+      internalID: -1280936085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b6fc6fff8259049b3cfee2406989ac
+      internalID: -1055123985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fcaef802232984a892929f4d0e5630
+      internalID: -1513195623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446449cf5ab8b4243b602da88a88faca
+      internalID: -545512578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f693f5e13bca54db6d860d572c14b9
+      internalID: 1618431701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829e1163622a9724588fe4e058191733
+      internalID: -246398286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd2b1ab225e9824d843653481d75278
+      internalID: 212374875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc4691212d6249409fd2358c2855f06
+      internalID: -2004418926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b59192ec4fe7f488e861304039d5d5
+      internalID: 731844753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d7c827b4b414640a9404e630eb7568
+      internalID: -28748447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc04f0625cd2d44f99b2bf748457ef2
+      internalID: -563057798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93017b8348a9f649bc921ade841303f
+      internalID: 450514332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6a806712ff4244a9ac32bf8d29a885
+      internalID: 883484100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68eb55304406994ebbc89c4ac36eeb1
+      internalID: 653023859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c480606afb3e6459e93e5f06f617b2
+      internalID: 224056417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cd00795acbedc4c8834d41110615cc
+      internalID: -1076280238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed7f2f1d4fc0794e99fbb416e5ac2b8
+      internalID: 1185455922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d995020b74f695844b42e0b303e02e57
+      internalID: -1536079014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668962c249a1fe348bc634eb51118410
+      internalID: 188520535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33395e0072673ba43886393b7e393809
+      internalID: 44413232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98fe454b49b8a944838b2c8017699e9
+      internalID: 117587600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdde3b49df91e024daf9f51ed490892e
+      internalID: -915281754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fead4c2a0ffe8fc49860a8c01d6c13d8
+      internalID: 1768682487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f106de69307074d8491331d63e8480
+      internalID: -815161029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_24
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad85eda3aba3f24dbb73f2029d32a19
+      internalID: 1690842387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e329f9abb3fb5194e8bebbc0910adcc6
+      internalID: -1044375918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc095bc8b41b33438b77dbe969cc24c
+      internalID: -944738034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 175
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97fc0e3a44494245b1f9a720761cb58
+      internalID: 1721814181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5c3117617f6af468499b7a187a566c
+      internalID: 779291726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_29
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab39cffc660136419533611cc9dbb6b
+      internalID: 1233504505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569579f03d748b74fa6bd29782447fae
+      internalID: 1591222409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4de4278b663cd141954caa244aa53b1
+      internalID: -2096991274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60636afa094c75846ac3df4647017eb9
+      internalID: 1225970196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_33
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0962c44d8fb5e43a8929596806700c
+      internalID: -2130361364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee2812c761142a44903ee1b7103ab62
+      internalID: 564539138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af546b6a066af384bb6de7e131c5cedb
+      internalID: -2114194610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bd0d00bd80e664bbdaecf58441227b
+      internalID: 317737117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_37
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b64cb383bc28bf41a531db63c44037e
+      internalID: 863813552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf5422e6dde38d44a03c99c94e9e413
+      internalID: -142387960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea892e062c533d64dbaf650a27f0524c
+      internalID: 39174295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_40
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233f19ef5754fd84b923618750e5092b
+      internalID: 1075640269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_41
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 163
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519a6b6d7c41c9747a3e00bf5c4eff83
+      internalID: -1043203104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8646fe67a2da35469272d35008a6dc7
+      internalID: -450978225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_43
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd55358138c26a641bc93d50d629bc40
+      internalID: 1692007623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ad944045509d9428ca3e6ef8ff21ca
+      internalID: -887295021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_45
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a7f17803e779149bc68522e42066c9
+      internalID: 483228027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76775980ef888674baaa5260a5dc138b
+      internalID: -1428584456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_47
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25d8f12fb5ef704d89fba2ff5ea623d
+      internalID: -1450781582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec44e47fcadf14942acedd1ac42a7adf
+      internalID: 714524348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9376bed1b253d2041b4307cafd1562b0
+      internalID: 266783172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66637b1652f1697489025cb1b3d0e980
+      internalID: -846532848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2e396f559d65c41a845a290d2665e7
+      internalID: -1481887595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_52
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0f93bda3806c540a44b2d96adc97bb
+      internalID: 459366124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_53
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cf59c9422204443b96b5283476dfd5
+      internalID: 1915731948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_54
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df79b8124697fdd47941c4ddc5c20d52
+      internalID: 1336219114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bed87689ed446542bdb7d5ed851869d
+      internalID: 969662793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee57bc09042560439d0d77f747902b5
+      internalID: -23345896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_57
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6374e8ef617af4a820690a9495dc16
+      internalID: -128626208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_58
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a0ad86379f11441bebb0a179f70dc5
+      internalID: -1362421651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_59
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e55f1ba26009144eb747f3cee9ba5c8
+      internalID: -1703694406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bcb3afad9bb1c4b8ee7e5cf31ba19c
+      internalID: 1984775430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1873855a0e932540ada717917c9a369
+      internalID: -2042097081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_62
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fb355434c4d3c48802b84bc2176a71
+      internalID: 1107783385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecbd4f7fdedae84089f74a4ce16d7a2
+      internalID: -535390085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d6cb6cf62c29c428c3b497c6593d34
+      internalID: 1880451060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_65
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dba5ac5f3a567243a9ebe565197ab7f
+      internalID: 1238475039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_66
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb75a4cc5315e4f915d1931461b0cb
+      internalID: -583636253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_67
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8c6b63faeb3de41a197c4b8f5a3a03
+      internalID: -219974701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_68
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1d1c2e0cea9dd4e94e2c1534f031f5
+      internalID: 588697988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_69
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847956f9009f41044986e662797bed71
+      internalID: 1637451259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d360bdf65faee43aca44458cdc7517
+      internalID: 667465255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7402856b26b6d84a95cdf62ca7770b4
+      internalID: -1849371076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a930aaa59d34428aff8e7d9cdf1dd
+      internalID: 819379323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_73
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c68f89b9461ec7439f15455bc97f88a
+      internalID: 2011133080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d89d43fc8b814482fcf70beae689d
+      internalID: 2008936412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ab816658087e4b918440923adf020
+      internalID: -772975921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_76
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28653f93274972740958d6ec4a4ba4ab
+      internalID: -1721044004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_77
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffa8178a3c00cc4eac17b03df0852b7
+      internalID: 1975118564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93abefcb470ee441b23e6077a402b88
+      internalID: 451299685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_79
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb62b2395e6324baa2a29f23b6f7a2
+      internalID: 754342792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_80
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d9e11c8cf50bd42927e4344d979b79
+      internalID: 1674280306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_81
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0980051ca320fd4da41024eb0969777
+      internalID: -1890045518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_82
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56112677d1cc544eac6379fd8c58243
+      internalID: -1855865106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_83
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31fa2ed7c4ec074eb4b1683a6f659bb
+      internalID: -175323144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9349c5594d4a3489b97ac8e413629a
+      internalID: -1355665707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af02621d929fbcf4295fd5689861e7fa
+      internalID: -793354656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_86
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e95f4415389b348ab827aef130fe28
+      internalID: -1862468616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_87
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5444d757e9246c948be1a59e5bac24db
+      internalID: 683390234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_88
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c0a705a1459e9469db135e9b0c20d4
+      internalID: 1839307205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_89
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4972a5089813a0f43bd2d02ccf964398
+      internalID: -1107446994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_90
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01540a85d30c1b94a8be70be7b834c4c
+      internalID: -597676272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_91
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379eab87cfb0fe342bf4c9762aea3bdf
+      internalID: 874150875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8bf40fc073350408914900dccf9805
+      internalID: -1722886260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_93
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c197e3d4f56e4fa7c1031d9c572b5
+      internalID: -412018024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_94
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d06b1875d2ec14cb93bca5ca60581e
+      internalID: -216133332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_95
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdebeb3c899eeb745a768b838c93134f
+      internalID: 1436673454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_96
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313bd55f224604c4cac05d087051ca06
+      internalID: -2134851106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_97
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d6de4f2f72567489c50f6c86c33aed
+      internalID: -1176254617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f2f5a1c2559364db5cf9948b7016ee
+      internalID: 1769899797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_99
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74cb4bbf71d57843bf6741bee8a95b9
+      internalID: 1218787770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_100
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f529fb8b297054d81671910e56a7f0
+      internalID: 1464006506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_101
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e1d1a5a8551f243aed2573547eae66
+      internalID: 1348283230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef15593b48b1432408e9d2b3f68c1fc7
+      internalID: -1880794275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_103
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbdd6aab45ab7b479c7214f35a42a7e
+      internalID: 706753395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_104
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a1def3d042eab468829d53cf709cb5
+      internalID: -1440324276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_105
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d654b5b2027da49806e90a92b19a3b
+      internalID: 383227608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b67250c8eee7a4c814a63bf9e76b72
+      internalID: -1320228184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_107
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdcd61dbf451314992e849a44c60de2
+      internalID: 1943076453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_108
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646110edbb4805a49a248e027df7d7b4
+      internalID: 1369297519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_109
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36993e1a8fd03a24eace5f63584b8b2a
+      internalID: 1862766524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_110
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17d4bbf9fea56f46ab1d4963dcfb0c8
+      internalID: -495041114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_111
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2c93acb8a292e4b9dfc61b76ac5fab
+      internalID: 1434323267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29297f059bbf4745a8d30908cd1f02b
+      internalID: 1016490846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c21b35222e3a3043b1689b2f693e39a
+      internalID: 1560870106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_114
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fc46b4f3f314d479be1f3095af69e0
+      internalID: 1177841793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857db3c215b8be6489815018cae222f3
+      internalID: 1539881349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_116
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aa89e36c90c0446a25a5d7f62860b5
+      internalID: 1975811921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_117
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac9fa67108303429264ba4b159d334
+      internalID: -106971981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_118
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8add1706c833af946a4509a7ce400d86
+      internalID: 1238118022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_119
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9131cb15044e5d34fb7d363462f6fadc
+      internalID: 406958784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_120
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4a5edbdf97ce4d81c190314b76e1d
+      internalID: -455308351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_121
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0503ebe6db59d478933ab6fb5d187c
+      internalID: 1409475719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_122
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c4d3cd70ee1ee4b93b2bd48edebf1d
+      internalID: 1900804277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_123
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a11d31581bfa9f429c98a13f824e7d3
+      internalID: -51794530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_124
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25eb4daa423e6954c88338ede0315c33
+      internalID: -886559748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_125
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2cb08bace2b0d498e51d4de70eec4c
+      internalID: 791601197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292a39f47b1dc49479d1855a40b747a7
+      internalID: 690190930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_127
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7299458b22a16a649bdeafbb3104dc9b
+      internalID: -1774643297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_128
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ebcc3b50904194882cc2374ac703aa
+      internalID: 999947511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_129
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04bad7672f7a8849965af5d989bb430
+      internalID: 109508861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_130
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e78e3a5cab701347821382e1338ce12
+      internalID: 551951790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_131
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4c441088ad6d04283649efced9ed8f
+      internalID: 1381426137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_132
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f265e478ef8e7d4f96d62ad49265e20
+      internalID: 2059586402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_133
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed318573abab92841b52074dd6daed5a
+      internalID: 5621428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_134
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3addb01f91acd28419007f9d7240a372
+      internalID: 1960155212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_135
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b0e494bb4a986498667038569b630e
+      internalID: 282229297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_136
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12496284c3a04a45b60c1e487754b37
+      internalID: 286310107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_137
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba269f09301f64458ba5cb55ac5f10c
+      internalID: -1704069078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_138
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41826b83f5e2d6a42b956f7c33ddcadd
+      internalID: 2019653242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_139
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff1096f12ec9314db14c68a9159b614
+      internalID: 2050318899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69033bac776788542b167de4d272fa9a
+      internalID: 714967830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_141
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95a3ef4ff3f52846905e93e1ec2f1e3
+      internalID: 428062943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_142
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56449b4912d55364b97bb3785be80cc8
+      internalID: 1778937706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_143
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3490517bf1945614f90bdec85495ba18
+      internalID: -269095266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_144
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3b7d3260aa99440bc3e89773a19a95
+      internalID: -1603531471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_145
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908286dcb96d8c74bacd28d07e369eb0
+      internalID: -1848630146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_146
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39afba130fde76143bafbe6639c579f5
+      internalID: 989316571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_147
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75c8bf05f00e944ba4daeeb8a9037f1
+      internalID: 534861437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7225b1a0f1cdfe043bbdef61e5f3e4c5
+      internalID: 123920293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_149
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c204b51594f346b7e0090119ec00d
+      internalID: -452514153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_150
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4b7f5727190aa489248c5c0f1ae5ee
+      internalID: -226068994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_151
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae7c069c07f002459c88740eca12793
+      internalID: 1786901219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_152
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987935df78a404142a31f817b33a7d68
+      internalID: -1449966093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_153
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb32deb53ec86641b6de39a2cf1f427
+      internalID: 1290644543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cdef6f6f6860746b4d4b7ad7e76414
+      internalID: -1950547020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_155
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab54cdb9414c2c4419ec72d1f68f20ce
+      internalID: 525901148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_156
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176ec4f988c224042b3c49291c2453bb
+      internalID: -1149575066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_157
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fea386b1de7a84ea46bb2725253a22
+      internalID: -1893136117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_158
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b166f046ee691d649a51b786fe77bffc
+      internalID: -1480565589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_159
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f19c5684116afa45a40842685c3ff0d
+      internalID: -1931921790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_160
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac7fb6595ca7e845bd8fcf25f2b8751
+      internalID: -1480969696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_161
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8e6219a9b76cc48b01c1be2afb1f3d
+      internalID: -1012093264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982236e037451014aa8a04e463918be7
+      internalID: -746724958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_163
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aeb00db8b8a27645bb8d5b036c2a917
+      internalID: -663553822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_164
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8468744bdd77af647b8a1545b7efcbb2
+      internalID: -522913675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_165
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f238f8424b7df4da35dcc98b6e9dfc
+      internalID: 1948591619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_166
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe766778e362084a938103ad35dc072
+      internalID: -251914411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_167
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4f67152b70e824c9bb94d6d6002fe8
+      internalID: -1427972944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a7bf4b922a6834db07b74336c1ca0f
+      internalID: 1266986230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_169
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68c587cf3ffd9a4089b4b52be0aa9c0
+      internalID: 1144604154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_170
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4cd3b28b161c34a8137e66f1279df9
+      internalID: -70927940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_171
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010a687ef50d87345bf51643c9365bf3
+      internalID: 2115111778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_172
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d495b6ff114854dbd203f8cf261184
+      internalID: -845792878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_173
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9142eb8e25cc64596e0b305afb365d
+      internalID: -337173841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_174
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d12540012bb44d9502c49564341e1
+      internalID: 898430956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_175
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c08c6f0595b57a438dbcd3e31b10795
+      internalID: 65977766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_176
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e4026f9cfccb046933eb4b6899fdc1
+      internalID: -1016116523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_177
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b63c21d297d6f44682662faf75aac07
+      internalID: -1300413645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_178
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8124fe9a1d0d17e4d91d81979a06dcb5
+      internalID: 1632849793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_179
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cfd7f6ae7015845ab239c7ac13d29a
+      internalID: -517712255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_180
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f83eacedd65744595d423f2b989069
+      internalID: 1886546386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_181
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a1bf7f1ca16c047b34fb724faed5d5
+      internalID: -127803410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f868fec1bde9074bb9d7e80ca5ffe1e
+      internalID: -1953197933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_183
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8284c06b475d2064ea34fcaf3872d3c9
+      internalID: 591971833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_184
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fba8e9499d997241bae0fd1eeb512f1
+      internalID: 425967951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_185
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c203b90f3d0ef4fbfb5fc87886e18b
+      internalID: -648846392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5617055da84c9d44483028ee80452395
+      internalID: -252817753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_187
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57958b800fccfc46a2bcd49296b0b30
+      internalID: -386608395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_188
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702b897294ba41a44853673366d826da
+      internalID: 75275376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_189
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a46e93163671b4da44c8ad02be799c
+      internalID: -1504932757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_190
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301761461447420488d1985541efc8c3
+      internalID: -2104697606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_191
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8f80d704cecd04c9d28a4b20091012
+      internalID: 375243971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_192
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abf74dcb1d996a41a762b83541c43c6
+      internalID: -715265277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_193
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94752b40a63abc640adaae1cf102d757
+      internalID: 1611892680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_194
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade35eb7005384f44a94737edbe41066
+      internalID: -663408821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_195
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9549e42552793d64c92bace9c369b064
+      internalID: 971622192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f2c75000ec883409cafe53054b29eb
+      internalID: 2003658786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_197
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdfc76a18b76c44d94a58a52922a625
+      internalID: -57358663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_198
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7c689ef46bef24da6994e9f82ee20f
+      internalID: -415021014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_199
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6522cd1cfad26494d98ad0eee33cf033
+      internalID: -627048546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_200
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da068e38dd220a4ead77a642ad75869
+      internalID: -1521341047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_201
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2e3a7b411ee014a8e7dd5ab2229c5d
+      internalID: 1832768798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_202
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0c586b7e944f740aa06cd0ea22ab18
+      internalID: -2092356946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_203
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e5d7190cf7bdb4b97edb5cbcd561a0
+      internalID: 881351215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_204
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48904588259d814b86f71ccd1722ac3
+      internalID: -1815649858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_205
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3578001911d98144baeefa103bb561b7
+      internalID: 1549190450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_206
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7ee78537feac54891899af6db92674
+      internalID: 1051818681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_207
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3abdc9df03484a42b85b7ff331a4c47
+      internalID: 712905032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_208
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f420614a6ab714e9a7b71bfbe73313
+      internalID: -1285599252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_209
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 19
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faaa10459aeeac48a1c20202b37bcda
+      internalID: 2023610659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555a7ac6c4ca96c4faab0eecc6c0c56a
+      internalID: -1348733774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_211
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8013ec8e6f17d1445a08bb6402f41e38
+      internalID: -1376916761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_212
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d612a6cee2fbac48a003a7d55466a4c
+      internalID: -718698330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_213
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0391934c9d16c2444b28dd14eaaf5567
+      internalID: 957908227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_214
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a337c16fc6d58c4db285030e44c924b
+      internalID: -1009039073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_215
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208bf5800d3f45e44a56d00aa4f673e7
+      internalID: -1108027420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_216
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c063e6ab572bcd24f91e3c364540ccd4
+      internalID: -2139891946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_217
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682dd3ff1c310a645b38124f5c3fdeed
+      internalID: -366027589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_218
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c7bdf31673fab4fb5113f2f67c919f
+      internalID: 1989449006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_219
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864d130f4f73d9342a56dde412418a44
+      internalID: -1783604361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_220
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c1d33b61713ce449bc816585c812dd
+      internalID: 1976896800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_221
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336185c9f6903f742b53045661f57089
+      internalID: -2031019596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_222
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678ed4a3f78c0a945b7bf301bd140d17
+      internalID: -1440818301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MSX2_Screen8_palette_color_test_chart_223
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717d1f9dafdaade4db928026069d002d
+      internalID: 1155883968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MSX2_Screen8_palette_color_test_chart_153: 1290644543
+      MSX2_Screen8_palette_color_test_chart_85: -793354656
+      MSX2_Screen8_palette_color_test_chart_164: -522913675
+      MSX2_Screen8_palette_color_test_chart_223: 1155883968
+      MSX2_Screen8_palette_color_test_chart_143: -269095266
+      MSX2_Screen8_palette_color_test_chart_215: -1108027420
+      MSX2_Screen8_palette_color_test_chart_17: -1536079014
+      MSX2_Screen8_palette_color_test_chart_40: 1075640269
+      MSX2_Screen8_palette_color_test_chart_170: -70927940
+      MSX2_Screen8_palette_color_test_chart_126: 690190930
+      MSX2_Screen8_palette_color_test_chart_28: 779291726
+      MSX2_Screen8_palette_color_test_chart_75: -772975921
+      MSX2_Screen8_palette_color_test_chart_114: 1177841793
+      MSX2_Screen8_palette_color_test_chart_190: -2104697606
+      MSX2_Screen8_palette_color_test_chart_106: -1320228184
+      MSX2_Screen8_palette_color_test_chart_123: -51794530
+      MSX2_Screen8_palette_color_test_chart_156: -1149575066
+      MSX2_Screen8_palette_color_test_chart_154: -1950547020
+      MSX2_Screen8_palette_color_test_chart_166: -251914411
+      MSX2_Screen8_palette_color_test_chart_186: -252817753
+      MSX2_Screen8_palette_color_test_chart_100: 1464006506
+      MSX2_Screen8_palette_color_test_chart_86: -1862468616
+      MSX2_Screen8_palette_color_test_chart_165: 1948591619
+      MSX2_Screen8_palette_color_test_chart_102: -1880794275
+      MSX2_Screen8_palette_color_test_chart_16: 1185455922
+      MSX2_Screen8_palette_color_test_chart_189: -1504932757
+      MSX2_Screen8_palette_color_test_chart_29: 1233504505
+      MSX2_Screen8_palette_color_test_chart_92: -1722886260
+      MSX2_Screen8_palette_color_test_chart_67: -219974701
+      MSX2_Screen8_palette_color_test_chart_8: 731844753
+      MSX2_Screen8_palette_color_test_chart_51: -1481887595
+      MSX2_Screen8_palette_color_test_chart_176: -1016116523
+      MSX2_Screen8_palette_color_test_chart_131: 1381426137
+      MSX2_Screen8_palette_color_test_chart_99: 1218787770
+      MSX2_Screen8_palette_color_test_chart_60: 1984775430
+      MSX2_Screen8_palette_color_test_chart_184: 425967951
+      MSX2_Screen8_palette_color_test_chart_199: -627048546
+      MSX2_Screen8_palette_color_test_chart_53: 1915731948
+      MSX2_Screen8_palette_color_test_chart_110: -495041114
+      MSX2_Screen8_palette_color_test_chart_91: 874150875
+      MSX2_Screen8_palette_color_test_chart_158: -1480565589
+      MSX2_Screen8_palette_color_test_chart_195: 971622192
+      MSX2_Screen8_palette_color_test_chart_84: -1355665707
+      MSX2_Screen8_palette_color_test_chart_209: 2023610659
+      MSX2_Screen8_palette_color_test_chart_174: 898430956
+      MSX2_Screen8_palette_color_test_chart_218: 1989449006
+      MSX2_Screen8_palette_color_test_chart_146: 989316571
+      MSX2_Screen8_palette_color_test_chart_57: -128626208
+      MSX2_Screen8_palette_color_test_chart_162: -746724958
+      MSX2_Screen8_palette_color_test_chart_6: 212374875
+      MSX2_Screen8_palette_color_test_chart_135: 282229297
+      MSX2_Screen8_palette_color_test_chart_128: 999947511
+      MSX2_Screen8_palette_color_test_chart_175: 65977766
+      MSX2_Screen8_palette_color_test_chart_182: -1953197933
+      MSX2_Screen8_palette_color_test_chart_52: 459366124
+      MSX2_Screen8_palette_color_test_chart_69: 1637451259
+      MSX2_Screen8_palette_color_test_chart_76: -1721044004
+      MSX2_Screen8_palette_color_test_chart_70: 667465255
+      MSX2_Screen8_palette_color_test_chart_104: -1440324276
+      MSX2_Screen8_palette_color_test_chart_134: 1960155212
+      MSX2_Screen8_palette_color_test_chart_205: 1549190450
+      MSX2_Screen8_palette_color_test_chart_191: 375243971
+      MSX2_Screen8_palette_color_test_chart_38: -142387960
+      MSX2_Screen8_palette_color_test_chart_107: 1943076453
+      MSX2_Screen8_palette_color_test_chart_45: 483228027
+      MSX2_Screen8_palette_color_test_chart_200: -1521341047
+      MSX2_Screen8_palette_color_test_chart_50: -846532848
+      MSX2_Screen8_palette_color_test_chart_125: 791601197
+      MSX2_Screen8_palette_color_test_chart_49: 266783172
+      MSX2_Screen8_palette_color_test_chart_78: 451299685
+      MSX2_Screen8_palette_color_test_chart_208: -1285599252
+      MSX2_Screen8_palette_color_test_chart_188: 75275376
+      MSX2_Screen8_palette_color_test_chart_206: 1051818681
+      MSX2_Screen8_palette_color_test_chart_149: -452514153
+      MSX2_Screen8_palette_color_test_chart_142: 1778937706
+      MSX2_Screen8_palette_color_test_chart_172: -845792878
+      MSX2_Screen8_palette_color_test_chart_163: -663553822
+      MSX2_Screen8_palette_color_test_chart_187: -386608395
+      MSX2_Screen8_palette_color_test_chart_68: 588697988
+      MSX2_Screen8_palette_color_test_chart_185: -648846392
+      MSX2_Screen8_palette_color_test_chart_20: 117587600
+      MSX2_Screen8_palette_color_test_chart_103: 706753395
+      MSX2_Screen8_palette_color_test_chart_65: 1238475039
+      MSX2_Screen8_palette_color_test_chart_25: -1044375918
+      MSX2_Screen8_palette_color_test_chart_124: -886559748
+      MSX2_Screen8_palette_color_test_chart_144: -1603531471
+      MSX2_Screen8_palette_color_test_chart_207: 712905032
+      MSX2_Screen8_palette_color_test_chart_30: 1591222409
+      MSX2_Screen8_palette_color_test_chart_109: 1862766524
+      MSX2_Screen8_palette_color_test_chart_222: -1440818301
+      MSX2_Screen8_palette_color_test_chart_221: -2031019596
+      MSX2_Screen8_palette_color_test_chart_216: -2139891946
+      MSX2_Screen8_palette_color_test_chart_173: -337173841
+      MSX2_Screen8_palette_color_test_chart_203: 881351215
+      MSX2_Screen8_palette_color_test_chart_147: 534861437
+      MSX2_Screen8_palette_color_test_chart_160: -1480969696
+      MSX2_Screen8_palette_color_test_chart_136: 286310107
+      MSX2_Screen8_palette_color_test_chart_192: -715265277
+      MSX2_Screen8_palette_color_test_chart_47: -1450781582
+      MSX2_Screen8_palette_color_test_chart_1: -1055123985
+      MSX2_Screen8_palette_color_test_chart_202: -2092356946
+      MSX2_Screen8_palette_color_test_chart_116: 1975811921
+      MSX2_Screen8_palette_color_test_chart_210: -1348733774
+      MSX2_Screen8_palette_color_test_chart_5: -246398286
+      MSX2_Screen8_palette_color_test_chart_82: -1855865106
+      MSX2_Screen8_palette_color_test_chart_55: 969662793
+      MSX2_Screen8_palette_color_test_chart_169: 1144604154
+      MSX2_Screen8_palette_color_test_chart_180: 1886546386
+      MSX2_Screen8_palette_color_test_chart_80: 1674280306
+      MSX2_Screen8_palette_color_test_chart_48: 714524348
+      MSX2_Screen8_palette_color_test_chart_117: -106971981
+      MSX2_Screen8_palette_color_test_chart_88: 1839307205
+      MSX2_Screen8_palette_color_test_chart_2: -1513195623
+      MSX2_Screen8_palette_color_test_chart_3: -545512578
+      MSX2_Screen8_palette_color_test_chart_217: -366027589
+      MSX2_Screen8_palette_color_test_chart_196: 2003658786
+      MSX2_Screen8_palette_color_test_chart_115: 1539881349
+      MSX2_Screen8_palette_color_test_chart_9: -28748447
+      MSX2_Screen8_palette_color_test_chart_4: 1618431701
+      MSX2_Screen8_palette_color_test_chart_12: 883484100
+      MSX2_Screen8_palette_color_test_chart_83: -175323144
+      MSX2_Screen8_palette_color_test_chart_96: -2134851106
+      MSX2_Screen8_palette_color_test_chart_62: 1107783385
+      MSX2_Screen8_palette_color_test_chart_18: 188520535
+      MSX2_Screen8_palette_color_test_chart_72: 819379323
+      MSX2_Screen8_palette_color_test_chart_140: 714967830
+      MSX2_Screen8_palette_color_test_chart_118: 1238118022
+      MSX2_Screen8_palette_color_test_chart_214: -1009039073
+      MSX2_Screen8_palette_color_test_chart_181: -127803410
+      MSX2_Screen8_palette_color_test_chart_108: 1369297519
+      MSX2_Screen8_palette_color_test_chart_71: -1849371076
+      MSX2_Screen8_palette_color_test_chart_11: 450514332
+      MSX2_Screen8_palette_color_test_chart_90: -597676272
+      MSX2_Screen8_palette_color_test_chart_204: -1815649858
+      MSX2_Screen8_palette_color_test_chart_220: 1976896800
+      MSX2_Screen8_palette_color_test_chart_64: 1880451060
+      MSX2_Screen8_palette_color_test_chart_198: -415021014
+      MSX2_Screen8_palette_color_test_chart_167: -1427972944
+      MSX2_Screen8_palette_color_test_chart_26: -944738034
+      MSX2_Screen8_palette_color_test_chart_194: -663408821
+      MSX2_Screen8_palette_color_test_chart_138: 2019653242
+      MSX2_Screen8_palette_color_test_chart_121: 1409475719
+      MSX2_Screen8_palette_color_test_chart_213: 957908227
+      MSX2_Screen8_palette_color_test_chart_120: -455308351
+      MSX2_Screen8_palette_color_test_chart_179: -517712255
+      MSX2_Screen8_palette_color_test_chart_36: 317737117
+      MSX2_Screen8_palette_color_test_chart_94: -216133332
+      MSX2_Screen8_palette_color_test_chart_81: -1890045518
+      MSX2_Screen8_palette_color_test_chart_13: 653023859
+      MSX2_Screen8_palette_color_test_chart_152: -1449966093
+      MSX2_Screen8_palette_color_test_chart_177: -1300413645
+      MSX2_Screen8_palette_color_test_chart_54: 1336219114
+      MSX2_Screen8_palette_color_test_chart_122: 1900804277
+      MSX2_Screen8_palette_color_test_chart_101: 1348283230
+      MSX2_Screen8_palette_color_test_chart_157: -1893136117
+      MSX2_Screen8_palette_color_test_chart_111: 1434323267
+      MSX2_Screen8_palette_color_test_chart_150: -226068994
+      MSX2_Screen8_palette_color_test_chart_155: 525901148
+      MSX2_Screen8_palette_color_test_chart_197: -57358663
+      MSX2_Screen8_palette_color_test_chart_139: 2050318899
+      MSX2_Screen8_palette_color_test_chart_161: -1012093264
+      MSX2_Screen8_palette_color_test_chart_87: 683390234
+      MSX2_Screen8_palette_color_test_chart_113: 1560870106
+      MSX2_Screen8_palette_color_test_chart_171: 2115111778
+      MSX2_Screen8_palette_color_test_chart_15: -1076280238
+      MSX2_Screen8_palette_color_test_chart_212: -718698330
+      MSX2_Screen8_palette_color_test_chart_168: 1266986230
+      MSX2_Screen8_palette_color_test_chart_130: 551951790
+      MSX2_Screen8_palette_color_test_chart_43: 1692007623
+      MSX2_Screen8_palette_color_test_chart_63: -535390085
+      MSX2_Screen8_palette_color_test_chart_95: 1436673454
+      MSX2_Screen8_palette_color_test_chart_14: 224056417
+      MSX2_Screen8_palette_color_test_chart_137: -1704069078
+      MSX2_Screen8_palette_color_test_chart_219: -1783604361
+      MSX2_Screen8_palette_color_test_chart_77: 1975118564
+      MSX2_Screen8_palette_color_test_chart_127: -1774643297
+      MSX2_Screen8_palette_color_test_chart_141: 428062943
+      MSX2_Screen8_palette_color_test_chart_178: 1632849793
+      MSX2_Screen8_palette_color_test_chart_59: -1703694406
+      MSX2_Screen8_palette_color_test_chart_129: 109508861
+      MSX2_Screen8_palette_color_test_chart_10: -563057798
+      MSX2_Screen8_palette_color_test_chart_193: 1611892680
+      MSX2_Screen8_palette_color_test_chart_73: 2011133080
+      MSX2_Screen8_palette_color_test_chart_145: -1848630146
+      MSX2_Screen8_palette_color_test_chart_27: 1721814181
+      MSX2_Screen8_palette_color_test_chart_33: -2130361364
+      MSX2_Screen8_palette_color_test_chart_97: -1176254617
+      MSX2_Screen8_palette_color_test_chart_7: -2004418926
+      MSX2_Screen8_palette_color_test_chart_42: -450978225
+      MSX2_Screen8_palette_color_test_chart_39: 39174295
+      MSX2_Screen8_palette_color_test_chart_34: 564539138
+      MSX2_Screen8_palette_color_test_chart_159: -1931921790
+      MSX2_Screen8_palette_color_test_chart_89: -1107446994
+      MSX2_Screen8_palette_color_test_chart_23: -815161029
+      MSX2_Screen8_palette_color_test_chart_148: 123920293
+      MSX2_Screen8_palette_color_test_chart_56: -23345896
+      MSX2_Screen8_palette_color_test_chart_58: -1362421651
+      MSX2_Screen8_palette_color_test_chart_41: -1043203104
+      MSX2_Screen8_palette_color_test_chart_79: 754342792
+      MSX2_Screen8_palette_color_test_chart_132: 2059586402
+      MSX2_Screen8_palette_color_test_chart_112: 1016490846
+      MSX2_Screen8_palette_color_test_chart_105: 383227608
+      MSX2_Screen8_palette_color_test_chart_0: -1280936085
+      MSX2_Screen8_palette_color_test_chart_44: -887295021
+      MSX2_Screen8_palette_color_test_chart_201: 1832768798
+      MSX2_Screen8_palette_color_test_chart_22: 1768682487
+      MSX2_Screen8_palette_color_test_chart_24: 1690842387
+      MSX2_Screen8_palette_color_test_chart_31: -2096991274
+      MSX2_Screen8_palette_color_test_chart_151: 1786901219
+      MSX2_Screen8_palette_color_test_chart_61: -2042097081
+      MSX2_Screen8_palette_color_test_chart_21: -915281754
+      MSX2_Screen8_palette_color_test_chart_66: -583636253
+      MSX2_Screen8_palette_color_test_chart_74: 2008936412
+      MSX2_Screen8_palette_color_test_chart_93: -412018024
+      MSX2_Screen8_palette_color_test_chart_133: 5621428
+      MSX2_Screen8_palette_color_test_chart_211: -1376916761
+      MSX2_Screen8_palette_color_test_chart_35: -2114194610
+      MSX2_Screen8_palette_color_test_chart_19: 44413232
+      MSX2_Screen8_palette_color_test_chart_98: 1769899797
+      MSX2_Screen8_palette_color_test_chart_32: 1225970196
+      MSX2_Screen8_palette_color_test_chart_183: 591971833
+      MSX2_Screen8_palette_color_test_chart_119: 406958784
+      MSX2_Screen8_palette_color_test_chart_37: 863813552
+      MSX2_Screen8_palette_color_test_chart_46: -1428584456
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
