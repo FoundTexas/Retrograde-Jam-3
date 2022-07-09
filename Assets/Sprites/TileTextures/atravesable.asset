@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: atravesable
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 1185455922, guid: f5de3ac58e238934a80b4880e3d1e474, type: 3}
-  m_DefaultGameObject: {fileID: 0}
+  m_DefaultGameObject: {fileID: 4494000636753141711, guid: f3754a61e8d03eb4097c0e5faea88612, type: 3}
   m_DefaultColliderType: 1
   m_TilingRules:
   - m_Id: 0
