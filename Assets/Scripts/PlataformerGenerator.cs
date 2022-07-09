@@ -8,6 +8,7 @@ public class PlataformerGenerator : MonoBehaviour
     [SerializeField] RuleTile Solid, Unsolid;
     [SerializeField] Tilemap map;
     public Vector2Int size;
+    public bool Exotic, Restrict;
 
     void Start()
     {
@@ -20,12 +21,14 @@ public class PlataformerGenerator : MonoBehaviour
         {
             Vector3Int pos = new Vector3Int(index / size.y, index % size.y, 0);
 
-            Debug.Log(pos);
-
             positions[index] = pos;
             tileArray[index] = null;
 
-            if (pos.x == 0 || pos.x >= size.x)
+            if (pos.y < size.y / 2 && pos.x > size.x - 5)
+            {
+                tileArray[index] = Solid;
+            }
+            else if (pos.x == 0 || pos.x >= size.x-1)
             {
                 tileArray[index] = Solid;
             }
@@ -33,7 +36,7 @@ public class PlataformerGenerator : MonoBehaviour
             {
                 tileArray[index] = Solid;
             }
-            else if (pos.x > 5 && pos.x < size.x)
+            else if (pos.x > 5 && pos.x < size.x-5)
             {
 
                 var prev = dictionary[new Vector2(pos.x, pos.y - 1)];
@@ -44,7 +47,7 @@ public class PlataformerGenerator : MonoBehaviour
                 var side2 = dictionary[new Vector2(pos.x - 2, pos.y)];
                 var side3 = dictionary[new Vector2(pos.x - 3, pos.y)];
 
-
+                /*
                 if (prev == Solid)
                 {
                     if (pos.y < 6)
@@ -56,37 +59,55 @@ public class PlataformerGenerator : MonoBehaviour
                         continue;
                     }
 
-                }
-                else if (prev == null)
+                }*/
+                if (prev == null)
                 {
                     if (prev2 == null)
                     {
                         if (prev3 == null)
                         {
-                            tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                            tileArray[index] = Random.Range(0, pos.y) >= 2 ? null : Solid;
                         }
                     }
                 }
                 else if (prev == Solid)
                 {
-                    if (prev2 == Solid)
+                    if (Exotic)
                     {
-                        if (prev3 == Solid)
+                        if (prev2 == Solid)
                         {
-                            tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                            if (prev3 == Solid)
+                            {
+                                tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                            }
+                            else
+                            {
+                                tileArray[index] = null;
+                            }
                         }
                         else
                         {
                             tileArray[index] = null;
                         }
+                        if (Restrict)
+                        {
+                            dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
+                            continue;
+                        }
                     }
                     else
                     {
-                        tileArray[index] = null;
+                        if (pos.y < 6)
+                        {
+                            tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+
+                            if (Restrict)
+                            {
+                                dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
+                                continue;
+                            }
+                        }
                     }
-                    dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
-                    Debug.Log(dictionary[new Vector2(pos.x, pos.y)]);
-                    continue;
                 }
 
                 if (side == Solid && pos.y > 6)
@@ -99,7 +120,7 @@ public class PlataformerGenerator : MonoBehaviour
                         }
                         else
                         {
-                            tileArray[index] = Solid;
+                            tileArray[index] = Random.Range(0, pos.y) >= 3 ? Solid : null;
                         }
                     }
                     else
@@ -117,13 +138,22 @@ public class PlataformerGenerator : MonoBehaviour
         {
             Vector3Int pos = new Vector3Int(index / size.y, index % size.y, 0);
 
-            var up = dictionary[new Vector2(pos.x, pos.y + 1)];
-            var down = dictionary[new Vector2(pos.x, pos.y - 1)];
-            var cur = dictionary[new Vector2(pos.x, pos.y)];
-
-            if(cur == null)
+            if (pos.y < size.y-1)
             {
+                Debug.Log(pos);
 
+                var up = dictionary[new Vector2(pos.x, pos.y + 1)];
+                var cur = dictionary[new Vector2(pos.x, pos.y)];
+                Debug.Log(cur);
+                Debug.Log(up);
+                if (cur == null)
+                {
+                    if (up == Solid || up == Unsolid)
+                    {
+                        tileArray[index] = Unsolid;
+                        dictionary[new Vector2(pos.x, pos.y)] = Unsolid;
+                    }
+                }
             }
         }
 
