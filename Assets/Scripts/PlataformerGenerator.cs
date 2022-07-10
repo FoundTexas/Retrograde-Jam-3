@@ -165,27 +165,28 @@ public class PlataformerGenerator : MonoBehaviour
                             {
                                 if (dictionary[new Vector2(pos.x + 1, pos.y)] != Solid && dictionary[new Vector2(pos.x - 1, pos.y)] != Solid)
                                 {
-                                    if (dictionary[new Vector2(pos.x + 1, pos.y)] == null && dictionary[new Vector2(pos.x - 1, pos.y)] == null)
+                                    if (enemies[new Vector2(pos.x + 1, pos.y)] == null && enemies[new Vector2(pos.x - 1, pos.y)] == null)
                                     {
-                                        if (Random.Range(0, pos.y) < size.y * 2 / 3)
-                                        {
+                                       // if (Random.Range(0, pos.y) < size.y * 2 / 3)
+                                        //{
                                             GameObject ob = Instantiate(Enemy, pos, Quaternion.identity);
                                             enemies[new Vector2(pos.x, pos.y)] = ob;
-                                        }
+                                        //}
                                     }
                                 }
                             }
-                            else if (pos.y >= size.y * 2 / 3)
+                        }
+                        else if (pos.y >= size.y * 2 / 3)
+                        {
+                            if (Random.Range(0, 5) > 1)
                             {
-                                if (Random.Range(0, 5) > 1)
+                                if (Random.Range(0, pos.y) >= size.y * 2 / 3)
                                 {
-                                    if (Random.Range(0, pos.y) >= size.y * 2 / 3)
-                                    {
-                                        GameObject ob = Instantiate(flyenem, pos, Quaternion.identity);
-                                        enemies[new Vector2(pos.x, pos.y)] = ob;
-                                    }
+                                    GameObject ob = Instantiate(flyenem, pos, Quaternion.identity);
+                                    enemies[new Vector2(pos.x, pos.y)] = ob;
                                 }
                             }
+
                         }
                     }
                     else if (cur == Solid)
