@@ -9,7 +9,7 @@ public class PlataformerGenerator : MonoBehaviour
 {
     [SerializeField] GameObject EnemyPRefab;
     [SerializeField] RuleTile Solid, Unsolid;
-    [SerializeField] Tilemap map;
+    [SerializeField] Tilemap map, bg;
 
     [SerializeField] CinemachineConfiner confinerCam;
 
@@ -27,6 +27,7 @@ public class PlataformerGenerator : MonoBehaviour
 
         Vector3Int[] positions = new Vector3Int[size.x * size.y];
         RuleTile[] tileArray = new RuleTile[positions.Length];
+        RuleTile[] tileArray2 = new RuleTile[positions.Length];
         Dictionary<Vector2, RuleTile> dictionary = new Dictionary<Vector2, RuleTile>();
 
         for (int index = 0; index < positions.Length; index++)
@@ -150,7 +151,7 @@ public class PlataformerGenerator : MonoBehaviour
                 {
                     if (up == Solid || up == Unsolid)
                     {
-                        tileArray[index] = Unsolid;
+                        tileArray2[index] = Unsolid;
                         dictionary[new Vector2(pos.x, pos.y)] = Unsolid;
 
                     }
@@ -163,10 +164,14 @@ public class PlataformerGenerator : MonoBehaviour
                         }
                     }
                 }
+                else if (cur == Solid)
+                {
+                    tileArray2[index] = Unsolid;
+                }
             }
         }
 
-
+        bg.SetTiles(positions, tileArray2);
         map.SetTiles(positions, tileArray);
 
         map.SetTile(new Vector3Int(5, 4, 0), Solid);

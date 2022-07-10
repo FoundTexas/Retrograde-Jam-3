@@ -12,7 +12,7 @@ public class RenderManager : MonoBehaviour
     {
         foreach (GameObject ob in objs)
         {
-            gameObject.SetActive(Vector2.Distance(transform.position, ob.transform.position) < RenderDistance);
+            ob.SetActive(Vector2.Distance(ob.transform.position, transform.position) < RenderDistance);
         }
     }
 
