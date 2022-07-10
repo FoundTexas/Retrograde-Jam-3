@@ -22,6 +22,7 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
+        rb.velocity = Vector2.zero;
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
     }
     private void Update()

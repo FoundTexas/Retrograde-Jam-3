@@ -7,6 +7,7 @@ using Cinemachine;
 [RequireComponent(typeof(PolygonCollider2D))]
 public class PlataformerGenerator : MonoBehaviour
 {
+    [SerializeField] GameObject EnemyPRefab;
     [SerializeField] RuleTile Solid, Unsolid;
     [SerializeField] Tilemap map;
 
@@ -58,19 +59,6 @@ public class PlataformerGenerator : MonoBehaviour
                 var side2 = dictionary[new Vector2(pos.x - 2, pos.y)];
                 var side3 = dictionary[new Vector2(pos.x - 3, pos.y)];
 
-                /*
-                if (prev == Solid)
-                {
-                    if (pos.y < 6)
-                    {
-                        tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
-
-                        dictionary.Add(new Vector2(pos.x, pos.y), tileArray[index]);
-                        Debug.Log(dictionary[new Vector2(pos.x, pos.y)]);
-                        continue;
-                    }
-
-                }*/
                 if (prev == null)
                 {
                     if (prev2 == null)
@@ -128,6 +116,7 @@ public class PlataformerGenerator : MonoBehaviour
                         if (side3 == Solid)
                         {
                             tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                            
                         }
                         else
                         {
@@ -163,6 +152,15 @@ public class PlataformerGenerator : MonoBehaviour
                     {
                         tileArray[index] = Unsolid;
                         dictionary[new Vector2(pos.x, pos.y)] = Unsolid;
+
+                    }
+
+                    if(dictionary[new Vector2(pos.x, pos.y - 1)] == Solid)
+                    {
+                        if (dictionary[new Vector2(pos.x + 1, pos.y - 1)] == Solid && dictionary[new Vector2(pos.x - 1, pos.y - 1)] == Solid)
+                        {
+                            //Instantiate(EnemyPRefab, new Vector2(pos.x, pos.y + 1.2f), Quaternion.identity);
+                        }
                     }
                 }
             }
@@ -175,11 +173,5 @@ public class PlataformerGenerator : MonoBehaviour
         map.SetTile(new Vector3Int(5, 3, 0), Solid);
         map.SetTile(new Vector3Int(4, 3, 0), Solid);
         map.SetTile(new Vector3Int(0, 0, 0), Solid);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

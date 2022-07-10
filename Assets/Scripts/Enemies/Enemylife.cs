@@ -15,6 +15,7 @@ public class Enemylife : MonoBehaviour, IDamaged
     public void dead()
     {
         ScoreManager.ChangeScore(score);
+        FindObjectOfType<RenderManager>().Remove(this.gameObject);
     }
 
     public void Heal(int hp)
