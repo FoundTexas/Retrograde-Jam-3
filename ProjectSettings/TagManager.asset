@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Attack
   - Projectile
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - VFX
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 

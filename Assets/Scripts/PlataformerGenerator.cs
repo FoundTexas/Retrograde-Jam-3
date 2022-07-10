@@ -2,16 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Cinemachine;
 
+[RequireComponent(typeof(PolygonCollider2D))]
 public class PlataformerGenerator : MonoBehaviour
 {
     [SerializeField] RuleTile Solid, Unsolid;
     [SerializeField] Tilemap map;
+
+    [SerializeField] CinemachineConfiner confinerCam;
+
+    PolygonCollider2D confiner;
     public Vector2Int size;
     public bool Exotic, Restrict;
 
     void Start()
     {
+        confiner = GetComponent<PolygonCollider2D>();
+        
+        Vector2[] arr = { new Vector2(1, 2), new Vector2(1, size.y + size.y/3), new Vector2(size.x-2, size.y + size.y / 2), new Vector2(size.x-2, 2)};
+        confiner.points = arr;
+        confinerCam.m_BoundingShape2D = confiner;
 
         Vector3Int[] positions = new Vector3Int[size.x * size.y];
         RuleTile[] tileArray = new RuleTile[positions.Length];
@@ -24,7 +35,7 @@ public class PlataformerGenerator : MonoBehaviour
             positions[index] = pos;
             tileArray[index] = null;
 
-            if (pos.y < size.y / 2 && pos.x > size.x - 5)
+            if (pos.y < size.y / 2 && pos.x > size.x - 8)
             {
                 tileArray[index] = Solid;
             }
@@ -36,7 +47,7 @@ public class PlataformerGenerator : MonoBehaviour
             {
                 tileArray[index] = Solid;
             }
-            else if (pos.x > 5 && pos.x < size.x-5)
+            else if (pos.x > 5 && pos.x < size.x-8)
             {
 
                 var prev = dictionary[new Vector2(pos.x, pos.y - 1)];

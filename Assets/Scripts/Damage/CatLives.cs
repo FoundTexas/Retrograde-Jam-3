@@ -2,53 +2,83 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CatLives : MonoBehaviour
+public class CatLives : MonoBehaviour, IDamaged
 {
-    [SerializeField]
-    private int lives;
-
-    private AttackCollide attack;
+    [SerializeField] GameObject[] lives;
+    [SerializeField] SpriteRenderer sr;
 
     [SerializeField]
     private float tickTime;
 
-    private float originalTickTime;
+    private float curTickTime;
+
+    bool dmg;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        attack = gameObject.GetComponent<AttackCollide>();
-        originalTickTime = tickTime;
+        curTickTime = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        MeeleDamage();
+        DamagedTime();
     }
 
-    private void MeeleDamage()
+    private void DamagedTime()
     {
-        if(attack.inCollide())
+        if(dmg)
         {
-            tickTime -= Time.deltaTime;
-
-            if(tickTime <= 0)
+            if(curTickTime >= tickTime)
             {
-                lives = (lives - 1);
-                tickTime = originalTickTime;
+                sr.color = new Color(1, 1, 1, 1);
+                dmg = false;
+                curTickTime = 0;
+            }
+            else
+            {
+                sr.color = new Color(1, 1, 1, 0.5f);
+                curTickTime += Time.deltaTime;
             }
         }
-        else
+    }
+
+    void UpdateUI()
+    {
+        for(int i = 0; i < lives.Length; i++)
         {
-            tickTime = 0;
+            if (i+1 > GameManager.Getlives())
+            {
+                lives[i].SetActive(true);
+            }
+            else
+            {
+                lives[i].SetActive(false);
+            }
         }
     }
 
-    public void ProjectileDamage()
+    public void Heal(int hp)
     {
-        lives = (lives - 1);
+        GameManager.UpdateLives(+1);
+        UpdateUI();
+    }
+
+    public void TakeDamage(int dm)
+    {
+        if (!dmg)
+        {
+            GameManager.UpdateLives(-1);
+            dmg = true;
+            UpdateUI();
+        }
+    }
+
+    public void dead()
+    {
+        throw new System.NotImplementedException();
     }
 
 }

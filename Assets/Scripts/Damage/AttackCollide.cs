@@ -26,7 +26,7 @@ public class AttackCollide : MonoBehaviour
 
         if(coll.gameObject.tag == "Projectile")
         {
-            catLives.ProjectileDamage();
+            //catLives.ProjectileDamage();
             Destroy(coll.gameObject);
         }
     }
