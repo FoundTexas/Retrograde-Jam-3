@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c737a1476ca58243991e6d99462dd5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 10
-  hintpoint: 1
+  score: 15
+  hintpoint: 5
 --- !u!61 &6910463233009369206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 7532550432998133225}
   m_Layer: 7
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,7 +7,7 @@ using Cinemachine;
 [RequireComponent(typeof(PolygonCollider2D))]
 public class PlataformerGenerator : MonoBehaviour
 {
-    [SerializeField] GameObject Enemy, flyenem, Exit;
+    [SerializeField] GameObject flyenem, tankCat,Exit;
     [SerializeField] RuleTile Solid, Unsolid;
     [SerializeField] Tilemap map, bg;
 
@@ -171,8 +171,10 @@ public class PlataformerGenerator : MonoBehaviour
                                     {
                                        // if (Random.Range(0, pos.y) < size.y * 2 / 3)
                                         //{
-                                            GameObject ob = Instantiate(Enemy, pos, Quaternion.identity);
+
+                                            GameObject ob = Instantiate(tankCat, pos, Quaternion.identity);
                                             enemies[new Vector2(pos.x, pos.y)] = ob;
+                                      
                                         //}
                                     }
                                 }
