@@ -19,6 +19,7 @@ public class CatLives : MonoBehaviour, IDamaged
     void Start()
     {
         curTickTime = 0;
+        UpdateUI();
     }
 
     // Update is called once per frame

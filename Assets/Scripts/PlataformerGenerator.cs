@@ -7,7 +7,7 @@ using Cinemachine;
 [RequireComponent(typeof(PolygonCollider2D))]
 public class PlataformerGenerator : MonoBehaviour
 {
-    [SerializeField] GameObject Enemy, flyenem, groundenem;
+    [SerializeField] GameObject Enemy, flyenem, Exit;
     [SerializeField] RuleTile Solid, Unsolid;
     [SerializeField] Tilemap map, bg;
 
@@ -24,6 +24,8 @@ public class PlataformerGenerator : MonoBehaviour
         Vector2[] arr = { new Vector2(1, 2), new Vector2(1, size.y + size.y / 3), new Vector2(size.x - 2, size.y + size.y / 2), new Vector2(size.x - 2, 2) };
         confiner.points = arr;
         confinerCam.m_BoundingShape2D = confiner;
+
+        Exit.transform.position = new Vector2(size.x - 4, (size.y / 2 ));
 
         Vector3Int[] positions = new Vector3Int[size.x * size.y];
         RuleTile[] tileArray = new RuleTile[positions.Length];
