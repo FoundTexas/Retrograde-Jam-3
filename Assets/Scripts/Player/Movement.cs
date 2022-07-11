@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] float speed, jump, jumpTime;
     [SerializeField] Transform feetpos;
+    [SerializeField] Animator anim;
     Rigidbody2D rb;
     float moveInput, jumpTimer;
     bool isGrounded, isjumping;
@@ -62,5 +63,8 @@ public class Movement : MonoBehaviour
         transform.position = new Vector2(
             Mathf.Clamp(transform.position.x, minXmaxX.x, minXmaxX.y),
             transform.position.y);
+
+        anim.SetBool("OnGround", isGrounded);
+        anim.SetFloat("mov", rb.velocity.magnitude);
     }
 }

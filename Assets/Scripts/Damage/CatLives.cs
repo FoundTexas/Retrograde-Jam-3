@@ -50,7 +50,7 @@ public class CatLives : MonoBehaviour, IDamaged
     {
         for(int i = 0; i < lives.Length; i++)
         {
-            if (i+1 > GameManager.Getlives())
+            if (i+1 < GameManager.Getlives())
             {
                 lives[i].SetActive(true);
             }
