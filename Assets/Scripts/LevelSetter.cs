@@ -5,7 +5,15 @@ using UnityEngine;
 public class LevelSetter : MonoBehaviour
 {
     [SerializeField] AudioPreset audio;
-    bool resetScore;
+    public bool resetScore;
+
+    private void Start()
+    {
+        if (resetScore)
+        {
+            ScoreManager.ResetScore();
+        }
+    }
 
     private void OnEnable()
     {

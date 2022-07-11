@@ -836,6 +836,7 @@ MonoBehaviour:
   - {fileID: 3349974013806708185}
   - {fileID: 8309184953063292458}
   sr: {fileID: 8243785375443566283}
+  text: {fileID: 770979762906359525}
   tickTime: 1
 --- !u!114 &1550271767399420794
 MonoBehaviour:

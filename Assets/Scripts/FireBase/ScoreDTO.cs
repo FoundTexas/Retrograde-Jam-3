@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_STANDALONE_WIN
 using Firebase.Extensions;
 using Firebase.Firestore;
 
@@ -25,3 +26,4 @@ public class ScoreDTO
         this.score = score;
     }
 }
+#endif

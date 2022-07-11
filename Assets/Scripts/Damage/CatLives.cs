@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CatLives : MonoBehaviour, IDamaged
 {
     [SerializeField] GameObject[] lives;
     [SerializeField] SpriteRenderer sr;
+
+    public TextMeshProUGUI text;
 
     [SerializeField]
     private float tickTime;
@@ -53,9 +56,10 @@ public class CatLives : MonoBehaviour, IDamaged
 
     void UpdateUI()
     {
+        text.text = ScoreManager.GetScore().ToString();
         for(int i = 0; i < lives.Length; i++)
         {
-            if (i+1 < GameManager.Getlives())
+            if (i+1 <= GameManager.Getlives())
             {
                 lives[i].SetActive(true);
             }

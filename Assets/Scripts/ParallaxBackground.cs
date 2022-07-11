@@ -11,7 +11,7 @@ public class ParallaxBackground : MonoBehaviour
     [SerializeField] private bool InfiniteVertical;
 
 
-    private Transform cameraTransform;
+    public Transform cameraTransform;
     private Vector3 lastCameraPosition;
     private float TextureUniteSizeX;
     private float TextureUniteSizeY;
@@ -21,7 +21,7 @@ public class ParallaxBackground : MonoBehaviour
     private void Start()
     {
 
-        cameraTransform = Camera.main.transform;
+        //cameraTransform = Camera.main.transform;
         lastCameraPosition = cameraTransform.position;
         Sprite sprite = GetComponent<SpriteRenderer>().sprite;
         Texture2D texture = sprite.texture;
