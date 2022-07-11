@@ -1,30 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CatLives : MonoBehaviour, IDamaged
 {
     [SerializeField] GameObject[] lives;
     [SerializeField] SpriteRenderer sr;
 
+    public TextMeshProUGUI text;
+
     [SerializeField]
     private float tickTime;
 
     private float curTickTime;
 
-    bool dmg;
+    bool dmg, d;
 
 
     // Start is called before the first frame update
     void Start()
     {
         curTickTime = 0;
+        UpdateUI();
     }
 
     // Update is called once per frame
     void Update()
     {
         DamagedTime();
+    }
+
+    public bool isDead()
+    {
+        return d;
     }
 
     private void DamagedTime()
@@ -47,9 +56,10 @@ public class CatLives : MonoBehaviour, IDamaged
 
     void UpdateUI()
     {
+        text.text = ScoreManager.GetScore().ToString();
         for(int i = 0; i < lives.Length; i++)
         {
-            if (i+1 > GameManager.Getlives())
+            if (i+1 <= GameManager.Getlives())
             {
                 lives[i].SetActive(true);
             }
@@ -73,12 +83,17 @@ public class CatLives : MonoBehaviour, IDamaged
             GameManager.UpdateLives(-1);
             dmg = true;
             UpdateUI();
+            if (GameManager.Getlives() <= 0)
+            {
+                dead();
+            }
         }
     }
 
     public void dead()
     {
-        throw new System.NotImplementedException();
+        d = true;
+        FindObjectOfType<SceneLoader>().LoadlastScene();
     }
 
 }

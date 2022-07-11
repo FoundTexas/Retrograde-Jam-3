@@ -24,11 +24,7 @@ public class AttackCollide : MonoBehaviour
             inCollision = true;
         }
 
-        if(coll.gameObject.tag == "Projectile")
-        {
-            //catLives.ProjectileDamage();
-            Destroy(coll.gameObject);
-        }
+
     }
 
     private void OnTriggerStay2D(Collider2D coll)
@@ -36,6 +32,13 @@ public class AttackCollide : MonoBehaviour
         if(tags.Exists(x => x.Equals(coll.gameObject.tag)))
         {
             inCollision = true;
+        }
+
+        if(coll.gameObject.tag == "Projectile")
+        {
+            //catLives.ProjectileDamage();
+            Destroy(coll.gameObject);
+            inCollision = false;
         }
     }
 

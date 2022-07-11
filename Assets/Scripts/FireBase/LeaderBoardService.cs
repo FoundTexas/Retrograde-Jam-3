@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using Firebase;
 using Firebase.Firestore;
 using Firebase.Extensions;
 
@@ -11,8 +10,8 @@ public class LeaderBoardService : MonoBehaviour
     static FirebaseFirestore db;
     [SerializeField] TextMeshProUGUI[] Names, Sacores;
     [SerializeField] TMP_InputField nickName;
-    [SerializeField] GameObject NickNameMenu, loading;
-    
+    [SerializeField] GameObject NickNameMenu, loading, back;
+
    public List<ScoreDTO> top10;
     public bool valid = false, load = true, update = false;
 
@@ -35,6 +34,11 @@ public class LeaderBoardService : MonoBehaviour
                 return p2.score.CompareTo(p1.score);
             }
             );
+
+            if (!valid)
+            {
+                FindObjectOfType<SceneUIManager>().SetValue(back);
+            }
 
             for (int i = 0; i < 10; i++)
             {
@@ -79,7 +83,7 @@ public class LeaderBoardService : MonoBehaviour
 
                 Debug.Log(tmp.nickName);
 
-                if (!valid && tmp.score < score)
+                if (!valid && tmp.score < score && score > 0)
                 {
                     valid = true;
                 }
@@ -87,7 +91,7 @@ public class LeaderBoardService : MonoBehaviour
                 top10.Add(tmp);
             }
 
-            if (!valid && top10.Count < 10)
+            if (!valid && top10.Count < 10 && score > 0)
             {
                 valid = true;
             }
@@ -97,6 +101,15 @@ public class LeaderBoardService : MonoBehaviour
             Debug.Log(valid);
             Debug.Log("Refreshed");
         });
+    }
+
+    public void Dissmiss()
+    {
+        update = true;
+
+        valid = false;
+
+        load = false;
     }
 
 

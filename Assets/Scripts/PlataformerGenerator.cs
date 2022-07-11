@@ -7,9 +7,9 @@ using Cinemachine;
 [RequireComponent(typeof(PolygonCollider2D))]
 public class PlataformerGenerator : MonoBehaviour
 {
-    [SerializeField] GameObject EnemyPRefab;
+    [SerializeField] GameObject flyenem, tankCat,Exit;
     [SerializeField] RuleTile Solid, Unsolid;
-    [SerializeField] Tilemap map;
+    [SerializeField] Tilemap map, bg;
 
     [SerializeField] CinemachineConfiner confinerCam;
 
@@ -20,18 +20,24 @@ public class PlataformerGenerator : MonoBehaviour
     void Start()
     {
         confiner = GetComponent<PolygonCollider2D>();
-        
-        Vector2[] arr = { new Vector2(1, 2), new Vector2(1, size.y + size.y/3), new Vector2(size.x-2, size.y + size.y / 2), new Vector2(size.x-2, 2)};
+
+        Vector2[] arr = { new Vector2(1, 2), new Vector2(1, size.y + size.y / 3), new Vector2(size.x - 2, size.y + size.y / 2), new Vector2(size.x - 2, 2) };
         confiner.points = arr;
         confinerCam.m_BoundingShape2D = confiner;
 
+        Exit.transform.position = new Vector2(size.x - 4, (size.y / 2 ));
+
         Vector3Int[] positions = new Vector3Int[size.x * size.y];
         RuleTile[] tileArray = new RuleTile[positions.Length];
+        RuleTile[] tileArray2 = new RuleTile[positions.Length];
         Dictionary<Vector2, RuleTile> dictionary = new Dictionary<Vector2, RuleTile>();
+        Dictionary<Vector2, GameObject> enemies = new Dictionary<Vector2, GameObject>();
 
         for (int index = 0; index < positions.Length; index++)
         {
             Vector3Int pos = new Vector3Int(index / size.y, index % size.y, 0);
+
+            enemies.Add(new Vector2(pos.x, pos.y), null);
 
             positions[index] = pos;
             tileArray[index] = null;
@@ -40,7 +46,7 @@ public class PlataformerGenerator : MonoBehaviour
             {
                 tileArray[index] = Solid;
             }
-            else if (pos.x == 0 || pos.x >= size.x-1)
+            else if (pos.x == 0 || pos.x >= size.x - 1)
             {
                 tileArray[index] = Solid;
             }
@@ -48,7 +54,7 @@ public class PlataformerGenerator : MonoBehaviour
             {
                 tileArray[index] = Solid;
             }
-            else if (pos.x > 5 && pos.x < size.x-8)
+            else if (pos.x > 5 && pos.x < size.x - 8)
             {
 
                 var prev = dictionary[new Vector2(pos.x, pos.y - 1)];
@@ -96,9 +102,9 @@ public class PlataformerGenerator : MonoBehaviour
                     }
                     else
                     {
-                        if (pos.y < 6)
+                        if (pos.y < 5)
                         {
-                            tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
+                            tileArray[index] = Random.Range(0, 10) >= 3 ? Solid : null;
 
                             if (Restrict)
                             {
@@ -116,7 +122,7 @@ public class PlataformerGenerator : MonoBehaviour
                         if (side3 == Solid)
                         {
                             tileArray[index] = Random.Range(0, pos.y) >= 3 ? null : Solid;
-                            
+
                         }
                         else
                         {
@@ -134,44 +140,73 @@ public class PlataformerGenerator : MonoBehaviour
             Debug.Log(dictionary[new Vector2(pos.x, pos.y)]);
         }
 
-        for (int index = positions.Length-1; index > 0; index--)
+
+
+        for (int index = positions.Length - 1; index > 0; index--)
         {
             Vector3Int pos = new Vector3Int(index / size.y, index % size.y, 0);
 
-            if (pos.y < size.y-1)
+            if (pos.y < size.y - 1)
             {
-                Debug.Log(pos);
-
                 var up = dictionary[new Vector2(pos.x, pos.y + 1)];
                 var cur = dictionary[new Vector2(pos.x, pos.y)];
-                Debug.Log(cur);
-                Debug.Log(up);
-                if (cur == null)
+
+                if (pos.x > 5 && pos.x < size.x - 8)
                 {
-                    if (up == Solid || up == Unsolid)
+                    if (cur == null)
                     {
-                        tileArray[index] = Unsolid;
-                        dictionary[new Vector2(pos.x, pos.y)] = Unsolid;
-
-                    }
-
-                    if(dictionary[new Vector2(pos.x, pos.y - 1)] == Solid)
-                    {
-                        if (dictionary[new Vector2(pos.x + 1, pos.y - 1)] == Solid && dictionary[new Vector2(pos.x - 1, pos.y - 1)] == Solid)
+                        if (up == Solid || up == Unsolid)
                         {
-                            //Instantiate(EnemyPRefab, new Vector2(pos.x, pos.y + 1.2f), Quaternion.identity);
+                            tileArray2[index] = Unsolid;
+                            dictionary[new Vector2(pos.x, pos.y)] = Unsolid;
                         }
+
+                        if (dictionary[new Vector2(pos.x, pos.y - 1)] == Solid)
+                        {
+                            if (dictionary[new Vector2(pos.x + 1, pos.y - 1)] == Solid && dictionary[new Vector2(pos.x - 1, pos.y - 1)] == Solid)
+                            {
+                                if (dictionary[new Vector2(pos.x + 1, pos.y)] != Solid && dictionary[new Vector2(pos.x - 1, pos.y)] != Solid)
+                                {
+                                    if (enemies[new Vector2(pos.x + 1, pos.y)] == null && enemies[new Vector2(pos.x - 1, pos.y)] == null)
+                                    {
+                                       // if (Random.Range(0, pos.y) < size.y * 2 / 3)
+                                        //{
+
+                                            GameObject ob = Instantiate(tankCat, pos, Quaternion.identity);
+                                            enemies[new Vector2(pos.x, pos.y)] = ob;
+                                      
+                                        //}
+                                    }
+                                }
+                            }
+                        }
+                        else if (pos.y >= size.y * 2 / 3)
+                        {
+                            if (Random.Range(0, 5) > 1)
+                            {
+                                if (Random.Range(0, pos.y) >= size.y * 2 / 3)
+                                {
+                                    GameObject ob = Instantiate(flyenem, pos, Quaternion.identity);
+                                    enemies[new Vector2(pos.x, pos.y)] = ob;
+                                }
+                            }
+
+                        }
+                    }
+                    else if (cur == Solid)
+                    {
+                        tileArray2[index] = Unsolid;
                     }
                 }
             }
+
+            bg.SetTiles(positions, tileArray2);
+            map.SetTiles(positions, tileArray);
+
+            map.SetTile(new Vector3Int(5, 4, 0), Solid);
+            map.SetTile(new Vector3Int(5, 3, 0), Solid);
+            map.SetTile(new Vector3Int(4, 3, 0), Solid);
+            map.SetTile(new Vector3Int(0, 0, 0), Solid);
         }
-
-
-        map.SetTiles(positions, tileArray);
-
-        map.SetTile(new Vector3Int(5, 4, 0), Solid);
-        map.SetTile(new Vector3Int(5, 3, 0), Solid);
-        map.SetTile(new Vector3Int(4, 3, 0), Solid);
-        map.SetTile(new Vector3Int(0, 0, 0), Solid);
     }
 }
