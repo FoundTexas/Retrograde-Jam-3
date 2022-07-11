@@ -12,14 +12,7 @@ public class CatProjectile : MonoBehaviour
     void Start()
     {
         projectileRB = GetComponent<Rigidbody2D>();
-        if(Input.GetAxisRaw("Horizontal") == -1)
-        {
-            direction = (-transform.right * Time.deltaTime).normalized * speed;
-        }
-        else
-        {
-            direction = (transform.right * Time.deltaTime).normalized * speed;
-        }
+        direction = (transform.right * Time.deltaTime).normalized * speed;
         projectileRB.velocity = new Vector2(direction.x, direction.y);
         Destroy(this.gameObject, life);
     }

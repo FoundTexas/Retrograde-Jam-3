@@ -595,6 +595,37 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &7902380114996835375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8471403032937083201}
+  m_Layer: 0
+  m_Name: ProjectileParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8471403032937083201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7902380114996835375}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.537, y: 0.113, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8243785375983761343}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8243785375443566277
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +745,7 @@ GameObject:
   - component: {fileID: 5110351095694537005}
   - component: {fileID: 1550271767399420794}
   - component: {fileID: 611069717226363937}
+  - component: {fileID: -8308155317259358724}
   m_Layer: 0
   m_Name: cat
   m_TagString: Player
@@ -736,6 +768,7 @@ Transform:
   - {fileID: 8243785375443566282}
   - {fileID: 6035847807690804936}
   - {fileID: 7872948074388963186}
+  - {fileID: 8471403032937083201}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -777,6 +810,7 @@ MonoBehaviour:
   jumpTime: 0.5
   feetpos: {fileID: 6035847807690804936}
   anim: {fileID: 5049360377979558897}
+  shootingParent: {fileID: 7902380114996835375}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -832,6 +866,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.15608358}
   serializedVersion: 2
   m_Radius: 0.3405404
+--- !u!114 &-8308155317259358724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8243785375983761337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cbe206e10db61a45909f6ff5e5e4448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 5197680205528159715, guid: 6b5a8f05060ffdf4589013cb19d2335e, type: 3}
+  projectilePartent: {fileID: 7902380114996835375}
 --- !u!1 &8308914725248195622
 GameObject:
   m_ObjectHideFlags: 0

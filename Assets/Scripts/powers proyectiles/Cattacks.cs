@@ -27,6 +27,6 @@ public class Cattacks : MonoBehaviour
 
     private void CatShot()
     {
-        Instantiate(projectile, projectilePartent.transform.position, Quaternion.identity);
+        Instantiate(projectile, projectilePartent.transform.position, this.transform.rotation);
     }
 }

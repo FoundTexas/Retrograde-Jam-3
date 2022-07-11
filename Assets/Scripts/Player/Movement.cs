@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     [SerializeField] float speed, jump, jumpTime;
     [SerializeField] Transform feetpos;
     [SerializeField] Animator anim;
+    [SerializeField] GameObject shootingParent;
     Rigidbody2D rb;
     float moveInput, jumpTimer;
     bool isGrounded, isjumping;
@@ -38,6 +39,7 @@ public class Movement : MonoBehaviour
             if (moveInput != 0)
             {
                 transform.eulerAngles = moveInput > 0 ? Vector3.zero : Vector3.up * 180;
+                shootingParent.transform.eulerAngles = moveInput > 0 ? Vector3.zero : Vector3.up * 180;
             }
 
             isGrounded = Physics2D.OverlapCircle(feetpos.position, 0.2f, whatIsGround);
