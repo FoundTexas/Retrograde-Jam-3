@@ -27,7 +27,10 @@ public class Movement : MonoBehaviour
     }
     private void Update()
     {
-        transform.eulerAngles = moveInput >= 0 ? Vector3.zero : Vector3.up*180;
+        if (moveInput != 0)
+        {
+            transform.eulerAngles = moveInput > 0 ? Vector3.zero : Vector3.up * 180;
+        }
 
         isGrounded = Physics2D.OverlapCircle(feetpos.position, 0.2f, whatIsGround);
         if (isGrounded)

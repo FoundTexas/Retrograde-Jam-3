@@ -74,12 +74,16 @@ public class CatLives : MonoBehaviour, IDamaged
             GameManager.UpdateLives(-1);
             dmg = true;
             UpdateUI();
+            if (GameManager.Getlives() <= 0)
+            {
+                dead();
+            }
         }
     }
 
     public void dead()
     {
-        throw new System.NotImplementedException();
+        FindObjectOfType<SceneLoader>().LoadlastScene();
     }
 
 }

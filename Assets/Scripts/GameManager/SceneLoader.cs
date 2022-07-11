@@ -17,13 +17,17 @@ public class SceneLoader : MonoBehaviour
         Debug.Log(SceneManager.sceneCountInBuildSettings-2);
         int scene = Random.Range(
             1,
-            SceneManager.sceneCountInBuildSettings - 2
+            SceneManager.sceneCountInBuildSettings - 1
             );
 
         LoadScene(scene);
     }
 
-    void LoadScene(int scene)
+    public void LoadlastScene()
+    {
+        StartCoroutine(LoadRoutine(SceneManager.sceneCountInBuildSettings-1));
+    }
+    public void LoadScene(int scene)
     {
         if (!overRide)
         {
