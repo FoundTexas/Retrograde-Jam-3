@@ -12,7 +12,7 @@ public class CatLives : MonoBehaviour, IDamaged
 
     private float curTickTime;
 
-    bool dmg;
+    bool dmg, d;
 
 
     // Start is called before the first frame update
@@ -26,6 +26,11 @@ public class CatLives : MonoBehaviour, IDamaged
     void Update()
     {
         DamagedTime();
+    }
+
+    public bool isDead()
+    {
+        return d;
     }
 
     private void DamagedTime()
@@ -83,6 +88,7 @@ public class CatLives : MonoBehaviour, IDamaged
 
     public void dead()
     {
+        d = true;
         FindObjectOfType<SceneLoader>().LoadlastScene();
     }
 

@@ -15,59 +15,68 @@ public class Movement : MonoBehaviour
 
     [SerializeField] Vector2 minXmaxX;
 
+    CatLives cl;
+
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>(); 
+        rb = GetComponent<Rigidbody2D>();
+        cl = GetComponent<CatLives>();
     }
 
     private void FixedUpdate()
     {
-        moveInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        if (cl.isDead() == false)
+        {
+            moveInput = Input.GetAxisRaw("Horizontal");
+            rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+        }
     }
     private void Update()
     {
-        if (moveInput != 0)
+        if (cl.isDead() == false)
         {
-            transform.eulerAngles = moveInput > 0 ? Vector3.zero : Vector3.up * 180;
-        }
-
-        isGrounded = Physics2D.OverlapCircle(feetpos.position, 0.2f, whatIsGround);
-        if (isGrounded)
-        {
-            rb.gravityScale = 3;
-        }
-        if (Input.GetKeyDown("space") && isGrounded)
-        {
-            rb.gravityScale = 3;
-            isjumping = true;
-            jumpTimer = 0;
-            rb.velocity = Vector2.up * jump;
-        }
-        if (Input.GetKey("space")&& isjumping)
-        {
-            if (jumpTimer < jumpTime)
+            if (moveInput != 0)
             {
-                rb.velocity = Vector2.up * jump;
-                jumpTimer += Time.deltaTime;
+                transform.eulerAngles = moveInput > 0 ? Vector3.zero : Vector3.up * 180;
             }
-            else
+
+            isGrounded = Physics2D.OverlapCircle(feetpos.position, 0.2f, whatIsGround);
+            if (isGrounded)
+            {
+                rb.gravityScale = 3;
+            }
+            if (Input.GetKeyDown("space") && isGrounded)
+            {
+                rb.gravityScale = 3;
+                isjumping = true;
+                jumpTimer = 0;
+                rb.velocity = Vector2.up * jump;
+            }
+            if (Input.GetKey("space") && isjumping)
+            {
+                if (jumpTimer < jumpTime)
+                {
+                    rb.velocity = Vector2.up * jump;
+                    jumpTimer += Time.deltaTime;
+                }
+                else
+                {
+                    isjumping = false;
+                    rb.gravityScale = 5;
+                }
+            }
+            if (Input.GetKeyUp("space"))
             {
                 isjumping = false;
                 rb.gravityScale = 5;
             }
-        }
-        if (Input.GetKeyUp("space"))
-        {
-            isjumping = false;
-            rb.gravityScale = 5;
-        }
 
-        transform.position = new Vector2(
-            Mathf.Clamp(transform.position.x, minXmaxX.x, minXmaxX.y),
-            transform.position.y);
+            transform.position = new Vector2(
+                Mathf.Clamp(transform.position.x, minXmaxX.x, minXmaxX.y),
+                transform.position.y);
 
-        anim.SetBool("OnGround", isGrounded);
-        anim.SetFloat("mov", rb.velocity.magnitude);
+            anim.SetBool("OnGround", isGrounded);
+            anim.SetFloat("mov", rb.velocity.magnitude);
+        }
     }
 }
