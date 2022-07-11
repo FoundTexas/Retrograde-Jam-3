@@ -222,7 +222,6 @@ GameObject:
   m_Component:
   - component: {fileID: 239721314}
   - component: {fileID: 239721313}
-  - component: {fileID: 239721315}
   m_Layer: 0
   m_Name: parallax
   m_TagString: Untagged
@@ -297,22 +296,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239721315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239721312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc170540e01a82641806a1b8f48f0b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: {x: 1, y: 0}
-  InfiniteHorizontal: 1
-  InfiniteVertical: 0
-  cameraTransform: {fileID: 54526396}
 --- !u!1 &302397678
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,8 +694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87420ddb29010ee4eae3d528fee576ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 5290742209132144601, guid: 126da909e80fb5e45b5ab8be88387c88, type: 3}
   flyenem: {fileID: 225252336740918576, guid: 4734cf41ac177814b941e6668dc96aac, type: 3}
+  tankCat: {fileID: 8463167330638565309, guid: 7b8b8d5f001064a4eb6b080b635c1827, type: 3}
   Exit: {fileID: 2054805862}
   Solid: {fileID: 11400000, guid: 9a34f25d877fcd14ea51517125a7c227, type: 2}
   Unsolid: {fileID: 11400000, guid: 49d1be2cecc8c084db56dba7b8965d35, type: 2}

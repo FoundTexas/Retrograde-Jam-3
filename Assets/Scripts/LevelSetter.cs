@@ -12,6 +12,7 @@ public class LevelSetter : MonoBehaviour
         if (resetScore)
         {
             ScoreManager.ResetScore();
+            GameManager.RestLives();
         }
     }
 

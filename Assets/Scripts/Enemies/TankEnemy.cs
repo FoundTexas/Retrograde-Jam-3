@@ -44,10 +44,13 @@ public class TankEnemy : MonoBehaviour
 
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
 
-        if(distanceFromPlayer <= visionRange && nextShotTime < Time.time)
+        if(distanceFromPlayer <= visionRange)
         {
-          Instantiate(projectile, projectilePartent.transform.position, Quaternion.identity);
-          nextShotTime = Time.time + fireRate;
+            if (nextShotTime < Time.deltaTime)
+            {
+                Instantiate(projectile, projectilePartent.transform.position, Quaternion.identity);
+                nextShotTime = Time.deltaTime + fireRate;
+            }
         }
         else if(distanceFromPlayer > visionRange)
         {

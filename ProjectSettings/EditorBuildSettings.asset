@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Plataformer1.unity
     guid: 500567c1538381b42a7d2f7d0fdbe26d
   - enabled: 1
+    path: Assets/Scenes/plat2.unity
+    guid: 4e7c25317c51a2b42b4267849c413c02
+  - enabled: 1
     path: Assets/Scenes/LeaderBoard.unity
     guid: 9058b25eef99bbf46902cfe88c033bcb
   m_configObjects: {}

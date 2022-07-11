@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
-#if UNITY_STANDALONE_WIN
 using Firebase.Firestore;
 using Firebase.Extensions;
 
@@ -148,4 +146,3 @@ public class LeaderBoardService : MonoBehaviour
         top10.Remove(last);
     }
 }
-#endif
